@@ -50,7 +50,9 @@ aside h3{
     background-size: 20px 20px;
     border-radius: 10px;
 }
-
+.tc{
+    text-align: center
+}
 
 @keyframes move{
     from{
