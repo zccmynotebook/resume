@@ -14,10 +14,10 @@ window.onload=function(){
       }
     }
     let timer=setInterval(loading, 500);
-
-
-    var mySwiper = new Swiper ('.swiper-container', {
-      direction: 'vertical',
-      //loop: true,
-    })       
+     
+    if(!main.classList.contains('hide')){
+      new Swiper ('.swiper-container', {
+        //direction: 'vertical',
+      })     
+    }     
 }
