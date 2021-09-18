@@ -9,15 +9,13 @@ window.onload=function(){
         clearInterval(timer)
         main.classList.remove('hide')
         aside.classList.add('hide')
+        new Swiper ('.swiper-container', {
+          //direction: 'vertical',
+        })   
       } else {
         process.style.width=n+'%'
       }
     }
     let timer=setInterval(loading, 500);
-     
-    if(!main.classList.contains('hide')){
-      new Swiper ('.swiper-container', {
-        //direction: 'vertical',
-      })     
-    }     
+ 
 }
