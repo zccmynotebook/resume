@@ -53,7 +53,25 @@ aside h3{
 .tc{
     text-align: center
 }
-
+dt{
+    font-weight: bold;
+    margin:10px 0;
+}
+li{
+    margin:10px 0;
+}
+ul,ol{
+    margin: 10px;
+}
+dl{
+    padding:10px;
+}
+.bold{
+   font-weight: bold;
+}
+.swiper-slide{
+    overflow-y: auto;
+}
 @keyframes move{
     from{
         background-position: 0 0
