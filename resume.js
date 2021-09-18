@@ -17,7 +17,7 @@ window.onload=function(){
 
 
     var mySwiper = new Swiper ('.swiper-container', {
-      //direction: 'vertical',
+      direction: 'vertical',
       //loop: true,
     })       
 }
