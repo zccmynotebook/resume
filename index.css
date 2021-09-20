@@ -72,6 +72,9 @@ dl{
 .swiper-slide{
     overflow-y: auto;
 }
+.innerlist{
+    margin-left:-20px;
+}
 @keyframes move{
     from{
         background-position: 0 0
