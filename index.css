@@ -62,6 +62,7 @@ li{
 }
 ul,ol{
     margin: 10px;
+    margin-top:20px;
 }
 dl{
     padding:10px;
