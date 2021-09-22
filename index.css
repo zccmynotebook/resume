@@ -84,6 +84,9 @@ small{
 i{
     font-size: 12px
 }
+img{
+    width: 100%;
+}
 @keyframes move{
     from{
         background-position: 0 0
