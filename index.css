@@ -85,7 +85,7 @@ i{
     font-size: 12px
 }
 img{
-    width: 100%;
+    width: 100vw;
 }
 @keyframes move{
     from{
