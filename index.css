@@ -84,9 +84,21 @@ small{
 i{
     font-size: 12px
 }
-img{
+div>img{
     width: 100vw;
     height: auto;
+}
+.tc{
+    text-align: center
+}
+.mtlarge{
+    margin-top: 60px;
+}
+.linkwrap a{
+    font-weight: bold;
+    text-decoration: none;
+    color: darkorange;
+    font-size: 22px;
 }
 @keyframes move{
     from{
