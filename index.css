@@ -100,6 +100,9 @@ div>img{
     color: darkorange;
     font-size: 22px;
 }
+.mllarge{
+    margin-left:100px;
+}
 @keyframes move{
     from{
         background-position: 0 0
