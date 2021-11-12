@@ -6,7 +6,7 @@ html,body,main,aside{
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-color: greenyellow;
+    background:linear-gradient(to bottom, yellow,greenyellow);
 }
 h3{
     text-align: center;
